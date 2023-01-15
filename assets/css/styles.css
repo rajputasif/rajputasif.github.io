@@ -167,7 +167,7 @@ nav ul li {
 
 .icon {
   width: 11.875rem;
-  height: 11.25rem;
+  height: 11.875rem;
 }
 /* Skills section ends */
 
@@ -369,8 +369,11 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    /* height: 37.5rem;
+    width: 30rem; */
+    display: block;
+    width: auto;
+    height: 30rem;
   }
 
   .bio {
@@ -393,7 +396,7 @@ footer {
 
   .icon {
     width: 5.875rem;
-    height: 5.25rem;
+    height: 5.875rem;
   }
 
   .projects-container {

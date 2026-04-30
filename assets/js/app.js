@@ -29,3 +29,20 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// Typing effect
+const textElement = document.getElementById("typing-text");
+const textContent = "I'm a researcher at heart and a programmer by profession, with a strong interest in solving real-world problems through technology.";
+let index = 0;
+
+function typeEffect() {
+  if (index < textContent.length) {
+    textElement.textContent += textContent.charAt(index);
+    index++;
+    setTimeout(typeEffect, 20);
+  }
+}
+
+if (textElement) {
+  typeEffect();
+}
